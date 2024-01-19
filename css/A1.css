@@ -1,23 +1,36 @@
-body{
-    background-image: url("../imgs/A1 pozadi.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+  background-image: url("../imgs/A1 pozadi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
 }
-h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
 }
-ul{
-    color: #FFFFFF;
-  }
-p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+
+ul {
+  color: #FFFFFF;
 }
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+img {
+  scale: 60%;
+  margin-left: -100px;
+  margin-top: -130px;
+}
+
 footer {
   background-color: #000000;
   color: #ffffff;
@@ -26,12 +39,13 @@ footer {
   position: relative;
   width: 260px;
   border-radius: 25px;
-  bottom: -350px;
+  bottom: 50px;
   display: grid;
-  margin: 0 auto; 
-  place-items: center; 
-  
+  margin: 0 auto;
+  place-items: center;
+
 }
-footer{
+
+footer {
   font-size: small;
 }
