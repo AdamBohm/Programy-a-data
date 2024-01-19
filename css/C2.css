@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+    background: #000; 
+  }
+  
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; 
+    object-fit: cover; 
+  }
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    width: 260px;
+    border-radius: 25px;
+    bottom: -800px;
+    display: grid;
+    margin: 0 auto; 
+    place-items: center; 
+    
+  }
+  footer{
+    font-size: small;
+  }

@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    background-image: url("../imgs/A3 pozadi.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+ul{
+    color: #FFFFFF;
+  }
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    width: 260px;
+    border-radius: 25px;
+    bottom: -350px;
+    display: grid;
+    margin: 0 auto; 
+    place-items: center; 
+    
+  }
+  footer{
+    font-size: small;
+  }
